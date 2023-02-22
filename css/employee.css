@@ -1,0 +1,6 @@
+#title{color:white; font-weight:bold}
+#navBar{background:#000f65;}
+	#navBar ul a{color:white; font-weight:bold; transition:0.5s;}
+	#navBar ul a:hover{background:white; color:#000f65; border-radius:10px 10px 0px 0px;}
+	#toggler{color:#f1f1f1;}
+	#togglerIcon{background-color:#f1f1f1;}

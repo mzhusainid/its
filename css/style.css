@@ -1,0 +1,50 @@
+#title{color:white; font-weight:bold}
+#navBar{background:#000f65;}
+	#navBar ul a{color:white; font-weight:bold; transition:0.5s;}
+	#navBar ul a:hover{background:white; color:#000f65; border-radius:10px 10px 0px 0px;}
+	#toggler{color:#f1f1f1;}
+	#togglerIcon{background-color:#f1f1f1;}
+#banner{height:90vh; background:url(../images/banner105.jpg); background-size:cover; color:white; clip-path: polygon(50% 0%, 100% 0, 100% 82%, 50% 100%, 0 82%, 0 0); background-attachment:fixed}
+	#DwnBtn{background:#000f65; color:white; border:1px solid white; border-radius:20px;}
+		#DwnBtn:hover{background:transparent; color:white; transition:0.5s}
+	#HireBtn{background:white; color:#000f65; border:1px solid white; border-radius:20px;}
+		#HireBtn:hover{background:transparent; color:white; transition:0.5s}
+	#bannerImg{border:10px solid white; width:80%}
+	#bannerImg:hover{transform:translateY(-5px); transition:0.5s; box-shadow:0px 0px 30px white;}
+#serviceImg{background:url('../images/banner105.jpg'); background-size:cover; background-attachment:fixed}
+	#ourServices{color:white; font-weight:bold; -webkit-text-stroke:1px lightgray}
+	#icon{color:#000f65; font-size:300%;}
+	#ServiceCard{background:#f1f1f1; color:#000f65; box-shadow:0px 5px 0px red}
+	#ServiceCard:hover{background:#000f65; color:white; box-shadow:0px 5px 0px #f1f1f1; transform:translateY(-10px); transition:0.5s;}
+	#ServiceCard:hover #icon{color:white}
+#portfolio{font-weight:bold; color:white; -webkit-text-stroke:1px lightgray}
+	#happyImg{background:url('../images/banner109.jpg'); background-size:cover; background-attachment:fixed; border-radius:0px 0px 5px 5px; box-shadow:0px 5px 0px red}
+	#viewPortfolio{background:#000f65; color:white; border:1px solid; border-radius:50px}
+	#viewPortfolio:hover{background:white; color:#000f65; border:1px solid #000f65; transition:0.5s}
+	#ServiceCard:hover a{background:white; color:#000f65;}
+#aboutSec img{width:100%; height:100%}
+	#about{color:white; -webkit-text-stroke:1px lightgray; font-weight:bold}
+	#touch{background:#000f65; color:white; border-radius:50px; line-height:30px}
+		#touchIcon{color:#000f65}
+		#social{color:#000f65; background:#f1f1f1; border-radius:;}
+		#social:hover{color:white; background:#000f65; transform:scale(1.1); transition:0.5s}
+	#quali{border-left:1px dashed #000f65; border-bottom:1px dashed #000f65;}
+#contact{font-weight:bold; -webkit-text-stroke:1px lightgray; color:white}	
+#contactImg{background:url(../images/banner108.jpg); background-size:cover; background-attachment:fixed}
+	#contactSec button{width:100%; background:#000f65; color:white; border:1px solid}
+#contactIcon ul{list-style:none; display:flex; padding-left:0%;}
+	#contactIcon ul li{width:50px; height:50px; background:white;  margin:5px; line-height:50px; border-radius:50%;}
+	#contactIcon ul li a{color:#000f65; display:block; font-size:130%;}
+	#contactIcon ul li:hover{background:#000f65; transform:translateY(-5px); transition:0.5s}
+	#contactIcon ul li a:hover{color:white}
+#footerSec ul{list-style:none; display:flex; padding-left:0%}
+	#footerSec ul li{margin:10px;}
+	#footer{background:#000f65; color:white; font-size:90%;}
+	#footer a{color:white; text-decoration:none;}
+	
+	
+@media only screen and (max-width:770px){
+	#banner{height:90vh; color:white; padding-bottom:10px; clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);}
+	#bannerImg{border:10px solid white; width:70%}
+	
+}

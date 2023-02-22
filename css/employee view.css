@@ -1,0 +1,7 @@
+#title{color:white; font-weight:bold}
+#navBar{background:#000f65;}
+	#navBar ul a{color:white; font-weight:bold; transition:0.5s;}
+	#toggler{color:#f1f1f1;}
+	#togglerIcon{background-color:#f1f1f1;}
+#employeeDetails{color:white; font-weight:bold; -webkit-text-stroke:1px lightgray}
+#view{width:70%;}
